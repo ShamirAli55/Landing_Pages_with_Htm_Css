@@ -18,13 +18,26 @@ html {
     justify-content: space-around;
     align-items: center;
 }
-
+#tleft p:hover{
+    cursor: pointer;
+    border-bottom:1px solid rgb(227, 220, 17);
+}
+.menu i:hover{
+      cursor: pointer;
+    border-bottom:1px solid rgb(227, 220, 17);
+}
+.menu a:hover{
+    border-bottom:1px solid rgb(227, 220, 17);
+}
 .tags a {
     text-decoration: none;
     color: gold;
     margin-right: 10px;
 }
-
+.tags a:hover
+{
+    border-bottom:1px solid rgb(227, 220, 17);
+}
 .menu {
     color: black;
     display: flex;
@@ -159,7 +172,31 @@ body::-webkit-scrollbar {
     z-index: 999;
     font-weight: 700;
 }
-
+footer
+{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.contact
+{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+}
+.contact a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
 @keyframes scroll {
     0% {
         transform: translateX(0);
