@@ -196,6 +196,12 @@ footer
     text-decoration: none;
     color: black;
     font-size: 20px;
+    transition:all 0.331s ease-in-out;
+}
+.contact a:hover
+{
+   transform: scale(1.2);
+   transform: translateY(-5px);
 }
 @keyframes scroll {
     0% {
@@ -204,5 +210,26 @@ footer
 
     100% {
         transform: translateX(calc(-100% - 32px));
+    }
+}
+@media screen and (max-width: 768px) {
+    .main img {
+        height: 400px;
+        width: 340px;
+    }
+
+    .scroll-div h1,
+    .scroll-div2 h1,
+    .scroll-div3 h1 {
+        font-size: 80px;
+    }
+
+    #txt {
+        font-size: 30px;
+        width: 80%;
+    }
+
+    footer {
+        font-size: 15px;
     }
 }
