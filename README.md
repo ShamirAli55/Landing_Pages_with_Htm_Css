@@ -25,12 +25,10 @@ Each folder contains a standalone landing page.
 
 Click below to preview each landing page live:
 
-- [Landing Page 01](https://shamirali55.github.io/landing-pages/01/)
-- [Landing Page 02](https://shamirali55.github.io/landing-pages/02/)
-- [Landing Page 03](https://shamirali55.github.io/landing-pages/03/)
-- *(Add more as you upload)*
+- [Landing Page 01](https://shamirali55.github.io/Landing_Pages_with_Html_Css/01/)
+- [Landing Page 02](https://shamirali55.github.io/Landing_Pages_with_Html_Css/02/)
+- [Landing Page 03](https://shamirali55.github.io/Landing_Pages_with_Html_Css/03/)
 
-> Make sure each folder has its own `index.html` to work properly with GitHub Pages.
 
 ## 👨‍💻 Author
 
@@ -41,7 +39,7 @@ Click below to preview each landing page live:
 ## ⭐ Star this repo
 
 If you find this useful or inspiring, consider giving it a ⭐ to show support!
-```
+
 
 ---
 
