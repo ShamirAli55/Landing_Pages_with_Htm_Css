@@ -28,8 +28,7 @@ Click below to preview each landing page live:
 - [Landing Page 01](https://shamirali55.github.io/Landing_Pages_with_Html_Css/01/)
 - [Landing Page 02](https://shamirali55.github.io/Landing_Pages_with_Html_Css/02/)
 - [Landing Page 03](https://shamirali55.github.io/Landing_Pages_with_Html_Css/03/)
-
-
+- 
 ## 👨‍💻 Author
 
 **Shamir Ali**  
@@ -39,7 +38,6 @@ Click below to preview each landing page live:
 ## ⭐ Star this repo
 
 If you find this useful or inspiring, consider giving it a ⭐ to show support!
-
 
 ---
 
