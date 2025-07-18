@@ -167,7 +167,7 @@ body::-webkit-scrollbar {
     text-align: center;
     font-size: 40px;
     color: black;
-    top: 6%;
+    top:6%;
     font-weight: bold;
     z-index: 999;
     font-weight: 700;
@@ -197,6 +197,13 @@ footer
     color: black;
     font-size: 20px;
     transition:all 0.331s ease-in-out;
+}
+.ri-github-fill
+{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contact a:hover
 {
