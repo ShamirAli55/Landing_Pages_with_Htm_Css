@@ -25,10 +25,10 @@ Each folder contains a standalone landing page.
 
 Click below to preview each landing page live:
 
-- [Landing Page 01](https://shamirali55.github.io/Landing_Pages_with_Html_Css/01/)
-- [Landing Page 02](https://shamirali55.github.io/Landing_Pages_with_Html_Css/02/)
-- [Landing Page 03](https://shamirali55.github.io/Landing_Pages_with_Html_Css/03/)
-- [Landing Page 04](https://shamirali55.github.io/Landing_Pages_with_Html_Css/04/)
+- [Landing Page 01](https://shamirali55.github.io/Landing_Pages_with_Htm_Css/01/)
+- [Landing Page 02](https://shamirali55.github.io/Landing_Pages_with_Htm_Css/02/)
+- [Landing Page 03](https://shamirali55.github.io/Landing_Pages_with_Htm_Css/03/)
+- [Landing Page 04](https://shamirali55.github.io/Landing_Pages_with_Htm_Css/04/)
 ## 👨‍💻 Author
 
 **Shamir Ali**  
