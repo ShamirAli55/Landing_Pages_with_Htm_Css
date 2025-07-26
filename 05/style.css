@@ -11,50 +11,48 @@ html {
     font-family: "monument", "Poppins", sans-serif;
 }
 
-#main
-{
+#main {
     height: 100%;
     width: 100%;
     /* background-color: aqua; */
 }
-#center
-{
+
+#center {
     width: 80%;
     height: 80%;
     /* background-color: bisque; */
     position: absolute;
-    top:50%;
-    left:20%;
-    transform: translate(0%,-50%);
+    top: 50%;
+    left: 20%;
+    transform: translate(0%, -50%);
 }
-.img-container
-{
+
+.img-container {
     overflow: hidden;
     height: 100%;
     width: 100%;
     /* background-color: yellow; */
     position: absolute;
 }
-.img-container img
-{
+
+.img-container img {
     height: 100%;
     /* object-fit: cover; */
 }
 
-#one
-{
-    width:0%;
+#one {
+    width: 0%;
 }
-#two
-{
-    width:0%;
-} 
-#three
-{   
+
+#two {
+    width: 0%;
+}
+
+#three {
     width: 0;
 }
-.text
-{
+
+.text {
     height: 100px;
     position: absolute;
     width: 400px;
@@ -64,10 +62,10 @@ html {
     z-index: 999;
     /* background-color: red; */
 }
-.text h1
-{
+
+.text h1 {
     /* color: rgb(7, 244, 220); */
-    background: linear-gradient(to top, rgb(7, 244, 220),orangered);
+    background: linear-gradient(to top, rgb(7, 244, 220), orangered);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
