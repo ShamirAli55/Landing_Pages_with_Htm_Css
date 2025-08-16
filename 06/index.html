@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="container min-h-screen w-full bg-slate-400 overflow-x-hidden">
+    <nav class="h-[15vh] w-auto flex items-center justify-between px-10 py-6 relative">
+      <h3 class="text-3xl">My Portfolio</h3>
+      
+      <div class="text-3xl md:hidden cursor-pointer" id="menu">&rAarr;</div>
+      
+      <div class="hidden md:flex gap-6 font-semibold">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <div class="h-screen absolute bg-red-400 flex flex-col text-5xl top-0 right-[-150%] p-8 font-bold md:hidden transition-all duration-300" id="extra">
+        <a href="#" class="absolute top-4 right-6 text-3xl" id="cross">❌</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+
+    <div class="h-[85vh] w-screen flex md:flex-row flex-col">
+        <div class="left sm:w-screen h-full md:w-1/2 flex">
+            <div class="h-full w-1/2 bg-amber-300"></div>
+            <div class="h-full w-1/2">
+                <div class="bg-black h-1/2 w-full"></div>
+                <div class="h-1/2 w-full bg-pink-500"></div>
+            </div>
+        </div>
+
+
+        
+        <div class="right sm:w-screen bg-red-500 h-full md:w-1/2">
+
+        </div>
+    </div>
+
+  </div>
+
+  <script>
+    const menu = document.querySelector("#menu");
+    const cross = document.querySelector("#cross"); 
+    const extra = document.querySelector("#extra");
+
+    menu.addEventListener('click', () => {
+      extra.style.right = "0%";
+    });
+
+    cross.addEventListener("click", () => {
+      extra.style.right = "-150%";
+    });
+  </script>
+</body>
+</html>
